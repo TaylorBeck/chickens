@@ -1,7 +1,7 @@
 import { Container, Typography, Divider, Box } from '@mui/material';
-import ProfileForm from './components/settings/ProfileForm';
-import NotificationForm from './components/settings/NotificationForm';
-import SecurityForm from './components/settings/SecurityForm';
+import ProfileForm from '../components/settings/ProfileForm';
+import NotificationForm from '../components/settings/NotificationForm';
+import SecurityForm from '../components/settings/SecurityForm';
 
 export default function SettingsPage() {
   return (

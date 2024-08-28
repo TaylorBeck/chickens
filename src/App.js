@@ -13,10 +13,10 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import { Home, People, ShowChart, Settings } from '@mui/icons-material';
 import EggIcon from '@mui/icons-material/Egg';
-import Chickens from './Chickens';
-import AnalyticsPage from './AnalyticsPage';
-import SettingsPage from './SettingsPage';
-import Dashboard from './Dashboard';
+import ChickensPage from './containers/ChickensPage';
+import AnalyticsPage from './containers/AnalyticsPage';
+import SettingsPage from './containers/SettingsPage';
+import Dashboard from './containers/Dashboard';
 
 const drawerWidth = 240;
 
@@ -96,7 +96,7 @@ function App() {
               />
               <Route
                 path="/chickens"
-                element={<Chickens />}
+                element={<ChickensPage />}
               />
               <Route
                 path="/analytics"

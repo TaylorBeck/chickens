@@ -35,12 +35,12 @@ export default function Chickens() {
 
   return (
     <div>
-      <div className="inline-flex justify-between items-center mb-4">
+      <div className="flex justify-between items-center mb-4">
         <Typography
           variant="h4"
           component="h2"
         >
-          Chickens Data
+          Chickens
         </Typography>
         <Button
           variant="contained"
@@ -52,6 +52,7 @@ export default function Chickens() {
           Add Chicken
         </Button>
       </div>
+
       <TableContainer
         component={Paper}
         className="mb-8"
